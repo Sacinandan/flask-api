@@ -1,0 +1,42 @@
+main {
+    position: relative;
+    padding-top: 100px;
+}
+
+form.form-floating {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+textarea.form-control {
+    height: 100px !important;
+}
+
+#primaryKey {
+    display: none;
+}
+
+.alert {
+    position: absolute;
+    top: -200px;
+    transition: top .5s linear;
+}
+
+.alert--visible {
+    width: 100%;
+    top: 40px;
+    transition: top .5s linear;
+}
+
+.btn.btn-success.add {
+    padding: 4px 30px;
+}
+
+.btn.btn-danger.del {
+    padding: 0 10px;
+}
+
+.btn.btn-light.edit {
+    margin-left: 10px;
+    padding: 0 10px;
+}
